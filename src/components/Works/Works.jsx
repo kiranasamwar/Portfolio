@@ -30,32 +30,27 @@ const Works = ()=>{
             {/* Right Side*/}
             <div className="w-right">
                 <div className="w-mainCircle">
-                    <div className="m-secCircle">
+                    <div className="w-secCircle">
                         <img src={Upwork} alt=""/>
                     </div>
-                    <div className="m-secCircle">
+                    <div className="w-secCircle">
                         <img src={Fiverr} alt=""/>
                     </div>
-                    <div className="m-secCircle">
+                    <div className="w-secCircle">
                         <img src={Amezon} alt=""/>
                     </div>
-                    <div className="m-secCircle">
+                    <div className="w-secCircle">
                         <img src={Shopify} alt=""/>
                     </div>
-                    <div className="m-secCircle">
+                    <div className="w-secCircle">
                         <img src={Facebook} alt=""/>
                     </div>
+                    </div>
                     {/*Background Circles*/}
-                    <div className="w-blackCircle blueCircle"></div>
-                    <div className="w-blackCircle yelllowCircle"></div>
-
-
-
-
-
+                    <div className="w-backCircle blueCircle"></div>
+                    <div className="w-backCircle yelllowCircle"></div>
                 </div>
             </div>
-        </div>
     )
 }
 
