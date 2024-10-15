@@ -108,6 +108,11 @@
     left: 56%;
     filter: blur(72px);
 }
+.btn-conatiners{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
 
 @media screen and  (max-width: 480px) {
     .intro{
@@ -124,5 +129,8 @@
     }
     .floting-div :nth-of-type(1){
         top: -7rem !important;
+    }
+    .i-right>:nth-child(4) {
+        padding: 21px;
     }
 }

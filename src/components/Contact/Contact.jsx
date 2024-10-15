@@ -30,11 +30,11 @@ const Contact = () => {
             );
     };
     return (
-        <div className='contact-form'>
+        <div className='contact-form' id="Contact">
             <div className='w-left'>
                 <div className='awesome'>
-                    <span style={{ color: darkMode ? "white" : '' }}>Get in touch</span>
-                    <span>Contact me</span>
+                    <span className='get ' style={{ color: darkMode ? "white" : '' }}>Get in touch</span>
+                    <span className='get1 '>Contact me</span>
                     <div
                         className='blur s-blur1'
                         style={{ background: "#ABF1FF94" }}

@@ -14,6 +14,9 @@ import Flotingdiv from "../FlotingDiv/FlotingDiv";
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 import { motion } from 'framer-motion'
+import { Link } from 'react-scroll'
+import Resume from './resume.pdf';
+
 
 
 const Intro = () => {
@@ -37,12 +40,31 @@ const Intro = () => {
                         and grow within the dynamic field of
                         web development.</span>
                 </div>
-                <button className="button i-button">Hire me</button>
-                <div className="i-icons">
-                    <img src={Github} alt='' />
-                    <img src={Linkedin} alt='' />
-                    <img src={Instagram} alt='' />
+                <div className="btn-conatiners">
+                    <Link spy={true} to='Contact' smooth={true}>
+                        <button className="button i-button" >Hire me</button>
+                    </Link>
+                    <a href={Resume} download >
+                        <button className="button s-button">Download CV</button>
+                    </a>
                 </div>
+                <div className="i-icons">
+                    {/* GitHub */}
+                    <a href="https://github.com/kiranasamwar" target="_blank" rel="noopener noreferrer">
+                        <img src={Github} alt="GitHub" />
+                    </a>
+
+                    {/* LinkedIn */}
+                    <a href="https://www.linkedin.com/in/kiran-asamwar-8754b5157/" target="_blank" rel="noopener noreferrer">
+                        <img src={Linkedin} alt="LinkedIn" />
+                    </a>
+
+                    {/* Instagram */}
+                    <a href="https://www.instagram.com/asamwar_kiran_/" target="_blank" rel="noopener noreferrer">
+                        <img src={Instagram} alt="Instagram" />
+                    </a>
+                </div>
+
             </div>
             <div className="i-right">
                 <img src={Vector1} alt='' />
