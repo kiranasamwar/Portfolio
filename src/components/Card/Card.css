@@ -38,3 +38,8 @@
         width: auto;
     }
 }
+@media screen and (max-width: 780px) {
+    .card{
+        width: auto;
+    }
+}

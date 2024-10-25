@@ -29,3 +29,11 @@
         gap: 2rem;
     }
 }
+@media screen and (max-width: 780px) {
+    .wave{
+        height: 14rem;
+    }
+    .f-content{
+        gap: 2rem;
+    }
+}
