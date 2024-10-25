@@ -1,4 +1,4 @@
-.footer{
+.footer {
     display: flex;
     align-items: center;
     margin: -0.5rem -3.5rem;
@@ -6,7 +6,7 @@
     margin-top: -7rem;
 }
 
-.f-content{
+.f-content {
     position: absolute;
     display: flex;
     align-items: center;
@@ -17,23 +17,28 @@
     gap: 4rem;
     color: white;
 }
-.f-icons{
+
+.f-icons {
     display: flex;
     gap: 2rem;
 }
+
 @media screen and (max-width: 480px) {
-    .wave{
+    .wave {
         height: 14rem;
     }
-    .f-content{
+
+    .f-content {
         gap: 2rem;
     }
 }
-@media screen and (max-width: 780px) {
-    .wave{
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .wave {
         height: 14rem;
     }
-    .f-content{
+
+    .f-content {
         gap: 2rem;
     }
 }

@@ -1,4 +1,4 @@
-.card{
+.card {
     width: 10rem;
     height: 15rem;
     position: absolute;
@@ -6,7 +6,6 @@
     flex-direction: column;
     gap: 1rem;
     align-items: center;
-    width: 10rem;
     text-align: center;
     background: rgba(255, 255, 255, 0.26);
     border: 7px solid var(--orangeCard);
@@ -15,16 +14,17 @@
     padding: 0px 26px 2rem 26px;
 }
 
-.card span:nth-last-of-type(2)
-{
+.card span:nth-last-of-type(2) {
     color: var(--gray);
     font-size: 16px;
 }
-.card > img{
+
+.card>img {
     transform: scale(0.6);
     margin-bottom: -2rem;
 }
-.c-button{
+
+.c-button {
     background: #ffffff;
     box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
     border-radius: 7px;
@@ -33,13 +33,21 @@
     color: #5290fd;
     font-size: 16px;
 }
+
 @media screen and (max-width: 480px) {
-    .card{
+    .card {
         width: auto;
     }
 }
+
 @media screen and (max-width: 780px) {
-    .card{
+    .card {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .card {
         width: auto;
     }
 }

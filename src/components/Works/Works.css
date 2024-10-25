@@ -1,4 +1,4 @@
-.works{
+.works {
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 90vh;
@@ -7,44 +7,52 @@
 
 /* Right Side*/
 
-.w-right{
+.w-right {
     position: relative;
 
 }
-.w-mainCircle{
-   left: 9rem;
-   position: relative;
-   width: 18rem;
-   height: 18rem;
-   border-radius: 100%;
-   box-shadow: var(--smboxShadow);
-   top: 2rem;
-   background: white;
+
+.w-mainCircle {
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
 }
-.w-mainCircle>*{
+
+.w-mainCircle>* {
     position: absolute;
 }
-.w-mainCircle> :nth-child(1){
+
+.w-mainCircle> :nth-child(1) {
     top: -3rem;
     left: 6rem;
 }
-.w-mainCircle> :nth-child(2){
+
+.w-mainCircle> :nth-child(2) {
     left: -3rem;
     top: 5rem;
 }
-.w-mainCircle> :nth-child(3){
+
+.w-mainCircle> :nth-child(3) {
     left: 6rem;
     top: 5rem;
 }
-.w-mainCircle> :nth-child(4){
+
+.w-mainCircle> :nth-child(4) {
     left: 15rem;
     top: 5rem;
 }
-.w-mainCircle> :nth-child(5){
+
+.w-mainCircle> :nth-child(5) {
     left: 6rem;
     top: 13rem;
 }
-.w-secCircle{
+
+.w-secCircle {
     width: 6rem;
     height: 6rem;
     position: absolute;
@@ -57,44 +65,75 @@
     box-shadow: var(--smboxShadow);
     background: white;
 }
-.w-secCircle > img{
+
+.w-secCircle>img {
     transform: scale(0.6);
 }
-.w-backCircle{
+
+.w-backCircle {
     position: absolute;
     height: 13rem;
     width: 13rem;
     border-radius: 100%;
     z-index: -1;
 }
-.blueCircle{
+
+.blueCircle {
     background: #1949BB;
     left: 18rem;
     top: 0rem;
 }
-.yelllowCircle{
+
+.yelllowCircle {
     background: #F5C32C;
     left: 18rem;
     top: 8rem;
 }
 
-@media screen and  (max-width: 480px) {
-    .works{
+@media screen and (max-width: 480px) {
+    .works {
         flex-direction: column;
         /* height: 55rem; */
         padding: 0;
         gap: 5rem;
     }
-    .w-right{
+
+    .w-right {
         display: flex;
-        justify-content:flex-start;
+        justify-content: flex-start;
         align-items: start;
         transform: scale(0.7);
     }
-    .w-mainCircle{
+
+    .w-mainCircle {
         position: static;
     }
-    .w-backCircle{
+
+    .w-backCircle {
+        left: 8rem !important;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .works {
+        flex-direction: column;
+        /* height: 55rem; */
+        padding: 0;
+        gap: 5rem;
+    }
+
+    .w-right {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        transform: scale(0.7);
+    }
+
+    .w-mainCircle {
+        position: static;
+    }
+
+    .w-backCircle {
         left: 8rem !important;
     }
 }

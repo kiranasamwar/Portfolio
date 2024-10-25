@@ -83,3 +83,22 @@
         width: 70px;
     }
 }
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .t-wrapper{
+        padding: 0;
+    }
+    .testimonial>img{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .t-wrapper{
+        padding: 0 2rem;
+    }
+    .testimonial>img{
+        height: 70px;
+        width: 70px;
+    }
+}

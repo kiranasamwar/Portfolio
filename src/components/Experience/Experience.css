@@ -53,8 +53,18 @@
     }
 }
 
-@media screen and (max-width: 780px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .experience {
         gap: 2rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .experience {
+        gap: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: none;
     }
 }
